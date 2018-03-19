@@ -6,22 +6,28 @@ body{
     font-weight: 600;
 }
 
-h1{
+
+/*h1 title*/
+
+
+.h1{
     color: #627d81;
     font-size: 50px;
+    padding-left: 10px;
 }
+
+
 /*h2 title and bullets color*/
-/* array icon and paragraf display in one line*/
+
 
 h2, li{
     color: #fc9b0a;
-    display: flex;
-    align-items: center;
-    justify-content:flex-start;
 }
+
 
 /* li paragraf color different from bullet
 minimize spaces above and under paragraf lines in unordered lists*/
+
 
 p{
     color: #999;
@@ -29,8 +35,40 @@ p{
     margin-bottom: 0;
 }
 
+/*bullets left from the container border*/
+
+
+
+ul{
+    padding-left:20px;
+}
+
+
+/*arrows left from th container border*/
+
+.list{
+    padding-left:0;
+}
+
+
+/*arrow and paragraf in one line, no bulleting*/
+
+.list li{
+    align-items: center;
+    display: flex;
+    justify-content:flex-start;
+    list-style-type: none;
+}
+
+
+/*main container settings*/
+
+
 .container{
     background-color: #ffffff;
+    max-width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
     min-height: 100vh;   /*full screen height*/
     padding: 30px;
 }
