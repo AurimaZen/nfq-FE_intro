@@ -11,29 +11,22 @@ h1{
     font-size: 50px;
 }
 /*h2 title and bullets color*/
+/* array icon and paragraf display in one line*/
 
 h2, li{
     color: #fc9b0a;
-}
-
-/* li paragraf color different from bullet*/
-
-li p{
-    color: #999;
-}
-
-/*minimize spaces above and under paragraf lines in unordered lists*/
-
-p{
-    margin-top: 0;
-    margin-bottom: 0;
-}
-/* array icon and paragraf display in one line*/
-
-.duk > li {
     display: flex;
     align-items: center;
     justify-content:flex-start;
+}
+
+/* li paragraf color different from bullet
+minimize spaces above and under paragraf lines in unordered lists*/
+
+p{
+    color: #999;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .container{
